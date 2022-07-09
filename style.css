@@ -12,10 +12,34 @@ body {
 }
 
 #main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid white;
     width: 400px;
     height: 300px;
     background-color: white;
     border-radius: 40px;
     padding: 20px;
+}
+
+#login {
+    margin-top: 15px;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+.rememberMe {
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    background: #f5f5dc;
+    box-shadow: -5px -5px 50px 5px #f5f5dc, 5px 5px 40px 5px #f5f5dc;
+    border-radius: 100px;
 }
